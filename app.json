@@ -1,24 +1,40 @@
 {
   "expo": {
-    "name": "Akhbar24",
+    "name": "Akhbar 24",
     "slug": "Akhbar24",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.drawingyssf.akhbar24",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0E1A2B",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.drawingyssf.akhbar24"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/akhbar24-icon.png",
+      "name": "Akhbar 24"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-font"
+    ],
+    "splash": {
+      "image": "./assets/akhbar24-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1A2B"
     }
   }
 }
